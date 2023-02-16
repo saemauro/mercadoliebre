@@ -1,10 +1,8 @@
 header {
     background-color: #EAC926;
+    padding: 20px;
 }
 
-main {
-    width: 90%;
-}
 
 body {
     background-color: #ebebeb;
@@ -15,11 +13,20 @@ body {
 article{
     margin-bottom: 10px;
     background-color: white;
-    width: 90vw;
+    width: 95%;
+    position: relative;
+    left: 2.5%;
+    display: inline-block;
 }
 
-.logo-nav{
-    width: 25vw;
+article img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo-nav img{
+    width: 100%;
+    display: flex;
 }
 
 .subtitulo {
@@ -30,6 +37,9 @@ article{
 .precio {
     font-size: 18px;
     margin-bottom: 0px;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .titulares {
@@ -40,16 +50,35 @@ article{
     font-size: 16px;
     color: green;
     margin-top: 0px;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .descripciones {
     font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .burger-menu{
-    color:#03264C;
+    background-color:#03264C;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.burger-menu a {
+    padding: 0;
+}
+
+.fa-bars{
+    color: #ffffff;
 }
 
 footer {
@@ -80,15 +109,18 @@ img{
     border: 1px solid #39b54a;
     background-color: #FFF;
     border-radius: 50%;
-    right: 20px;
-    top: -15px;
+    position: absolute;
+    right: 10%;
+    top: 82%;
     color: #39b54a;
     order: 3;
 }
 
 .div-articulos{
     border-top: 1px solid #ebebeb;
-    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .descripciones{
@@ -103,27 +135,51 @@ img{
     display: none;
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
 
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
+nav a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 15px 0;
+    font-size: 17px;
+}
 
 
 
 
 /*                MEDIA QUERIES  */
 
-@media (min-width: 361px){
+@media (min-width: 769px){
     article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 45%;
+        margin: 2%;
     }
     .descripciones{
         display:block;
     }
+
     .site-nav{
-        display: block;
+        display: flex;
     }
-    
+        
     .login-navbar{
-        display: block;
+        display: flex;
+    }
+
+    header {
+        display: flex;
     }
 
     .burger-menu{
@@ -131,6 +187,11 @@ img{
     }
 }
 
-@media (min-width: 769px){
+@media (min-width: 1280px){
+
+    article{
+        width: 20%;
+        margin: 1,5%;
+    }
 
 }
