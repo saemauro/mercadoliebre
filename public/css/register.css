@@ -65,6 +65,10 @@
     .input-style{
         width: 40%;
     }
+
+    .botones{
+        width: 19.8%;
+    }
 }
 
 @media (min-width: 1280px){ 
@@ -72,5 +76,9 @@
 
     .input-style{
         width: 30%;
+    }
+
+    .botones{
+        width: 14.9%;
     }
 } 
