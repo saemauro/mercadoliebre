@@ -1,0 +1,76 @@
+
+.signup-form{
+    padding: 20px 15px;
+}
+
+.control-formulario{
+    margin-bottom: 15px;
+}
+
+.control-formulario label{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.control-formulario-checkbox{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.control-formulario-checkbox label{
+    width: 50%;
+}
+
+.control{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.checkbox-register{
+    margin: 7px;
+}
+
+.form-content{
+    background-color: #ebebeb;
+}
+
+.input-style{
+    height: 40px;
+    border: hidden;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.input-style:focus{
+    outline: none;
+}
+
+.botones{
+    width: 49.4%;
+    background-color: #3483fa;
+    color: #ffffff;
+    border: hidden;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px){
+
+    
+    .input-style{
+        width: 40%;
+    }
+}
+
+@media (min-width: 1280px){ 
+
+
+    .input-style{
+        width: 30%;
+    }
+} 
