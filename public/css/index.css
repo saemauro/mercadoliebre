@@ -24,7 +24,7 @@
 
 .card .imagen .img-producto{
     width: 100%;
-    height: 20rem;
+    vertical-align: top;
 }
 
 .card .card-content {
@@ -101,7 +101,7 @@
 }
 
 .card .imagen .img-producto{
-    height: 23rem;
+    vertical-align: top;
 }
 
 }
